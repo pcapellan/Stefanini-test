@@ -53,8 +53,8 @@ public class SignUpStepDefs {
         signUpPage.completePasswordField(pass);
     }
 
-    @E("pressiono o botão Registrar")
-    public void pressionoOBotãoRegistrar() {
+    @E("pressiono o botão Cadastrar")
+    public void pressionoOBotãoCadastrar() {
         signUpPage.clickRegisterBtn();
     }
 
